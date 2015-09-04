@@ -5,6 +5,7 @@ applications:
   instances: 1
   host: pcfdemo-dwong1
   path: ./target/pcfdemo.war
+  buildpack: java_buildpack_offline
   env:
    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
 services:
